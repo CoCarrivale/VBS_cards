@@ -5,5 +5,5 @@ define l+ = e+ mu+ ta+
 define l- = e- mu- ta-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
-generate p p > l+ l- l+ l- j j SMHLOOP=0 QCD=0 
+generate p p > l+ l- l+ l- j j SMHLOOP=0 QCD=0 NP=1
 output ZZjjTo4l_ewk_dim6
