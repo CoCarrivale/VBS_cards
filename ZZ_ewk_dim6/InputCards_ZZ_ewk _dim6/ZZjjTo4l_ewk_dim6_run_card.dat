@@ -105,7 +105,7 @@
 #*********************************************************************
 # Minimum and maximum pt's (for max, -1 means no cut)                *
 #*********************************************************************
- 50  = ptj       ! minimum pt for the jets 
+ 10  = ptj       ! minimum pt for the jets 
   0  = ptb       ! minimum pt for the b 
   0  = pta       ! minimum pt for the photons 
   0  = ptl       ! minimum pt for the charged leptons 
@@ -168,7 +168,7 @@
 # WARNING: for four lepton final state mmll cut require to have      *
 #          different lepton masses for each flavor!                  *           
 #*********************************************************************
- 500 = mmjj    ! min invariant mass of a jet pair 
+ 100 = mmjj    ! min invariant mass of a jet pair 
  0   = mmbb    ! min invariant mass of a b pair 
  0   = mmaa    ! min invariant mass of gamma gamma pair
  0   = mmll    ! min invariant mass of l+l- (same flavour) lepton pair
@@ -208,10 +208,10 @@
 #*********************************************************************
 # Control the pt's of leptons sorted by pt                           *
 #*********************************************************************
- 25   = ptl1min ! minimum pt for the leading lepton in pt
- 20   = ptl2min ! minimum pt for the second lepton in pt
- 10   = ptl3min ! minimum pt for the third lepton in pt
- 10   = ptl4min ! minimum pt for the fourth lepton in pt
+ 0   = ptl1min ! minimum pt for the leading lepton in pt
+ 0   = ptl2min ! minimum pt for the second lepton in pt
+ 0   = ptl3min ! minimum pt for the third lepton in pt
+ 0   = ptl4min ! minimum pt for the fourth lepton in pt
  -1  = ptl1max ! maximum pt for the leading lepton in pt 
  -1  = ptl2max ! maximum pt for the second lepton in pt
  -1  = ptl3max ! maximum pt for the third lepton in pt
@@ -269,4 +269,3 @@
    T  = use_syst      ! Enable systematics studies
 #
 #**************************************
-
